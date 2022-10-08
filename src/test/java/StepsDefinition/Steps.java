@@ -18,6 +18,7 @@ public class Steps {
 	    // Write code here that turns the phrase above into concrete actions
 		WebDriver driver=new ChromeDriver();
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\safzalgo\\Downloads\\chromedriver\\chromedriver.exe");
+		System.out.println("Hi");
 		driver.get("https://adactinhotelapp.com");
 		assertEquals(driver.getCurrentUrl(), "https://adactinhotelapp.com");	}
 
