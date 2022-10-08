@@ -23,9 +23,9 @@ public class Steps {
 		assertEquals(driver.getCurrentUrl(), "https://adactinhotelapp.com");	}
 
 	@When("user enters username as {string}")
-	public void user_enters_username_as(String string) {
+	public void user_enters_username_as(String strin) {
 	    // Write code here that turns the phrase above into concrete actions
-		driver.findElement(By.id("username")).sendKeys(string);
+		driver.findElement(By.id("username")).sendKeys(strin);
 }
 
 	@When("user enters password as {string}")
